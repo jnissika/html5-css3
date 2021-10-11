@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1#principal {
+    background: #5c535360;
+    color: royalblue;
+    text-align: center;
+    font-size: 3em;
+}
+
+.titulo {
+    color: #9400d3;
+    font-weight: bolder;
+}
+
+.basico {
+    color: #8b0000;
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: #00008b;
+    font-weight: bolder;
+}
+
+.avançado {
+    color: #ff8c00;
+    font-weight: bolder;
+}
+
+.destaque {
+    font-size: 2em;
+    color: dodgerblue;
+    text-decoration: underline;
+}

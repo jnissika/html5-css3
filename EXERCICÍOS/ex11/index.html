@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Imagem Dinâmica</h1>
+    </header>
+    <main>
+        <p>
+            Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e dimínua o tamanho do seu navegador.
+        </p>
+        <div class="img">
+            <picture>
+                <!--Quando o navegador tiver menos de 700px a imagem muda para uma de 300px-->
+                <source media="(max-width: 750px)" srcset="imgs/pequena.png" type="image/png">
+                <!--Quando o navegador tiver menos de 1000px a imagem muda para uma de 700px-->
+                <source media="(max-width: 1050px)" srcset="imgs/media.png" type="image/png">
+                <!--Carrega a foto maior/Principal-->
+                <img src="imgs/grande.png" alt="Imagem Flexível">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
